@@ -4,7 +4,9 @@ parameters:
     debug.memory: true
     debug.show_errors: true
     debug.exceptions: true
+    debug.error_handler: false
     twig.debug: false
     twig.auto_reload: false
     twig.enable_debug_extension: false
+    session.log_errors: false
 

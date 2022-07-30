@@ -2,7 +2,7 @@
     "name": "dark1/debug",
     "type": "phpbb-extension",
     "description": "phpBB Debug Extension",
-    "homepage": "",
+    "homepage": "https://github.dark1.tech/phpbb-ext-dark1-debug",
     "version": "1.0.0-dev",
     "time": "2022-07-28",
     "license": "GPL-2.0-only",
