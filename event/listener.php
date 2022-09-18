@@ -10,9 +10,6 @@
 
 namespace dark1\debug\event;
 
-/**
- * @ignore
- */
 use Symfony\Component\EventDispatcher\EventSubscriberInterface;
 use phpbb\request\request;
 
@@ -42,9 +39,7 @@ class listener implements EventSubscriberInterface
 	 */
 	public static function getSubscribedEvents()
 	{
-		return [
-			'core.common'	=> 'test_debug',
-		];
+		return ['core.common'	=> ['test_debug', 9999]];
 	}
 
 	/**
